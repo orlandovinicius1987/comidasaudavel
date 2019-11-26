@@ -29,7 +29,10 @@
             <td>{{ is_null($basket->start) ? : $basket->start}}</td>
             <td>{{ is_null($basket->end) ? : $basket->end}}</td>
             <td>
-                <i class="far fa-lightbulb"></i>
+               <button><i class="fas fa-clipboard-list"></i> Disponibilidade</button>
+                <button><i class="fas fa-shopping-basket"></i>Montar Cesta</button>
+                <button><i class="fas fa-leaf"></i>Colheita</button>
+                <button><i class="fas fa-money-bill-alt"></i>Partilha</button>
             </td>
         </tr>
     @empty
